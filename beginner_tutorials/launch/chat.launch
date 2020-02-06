@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="talker1" pkg="beginner_tutorials" type="talker.py" output="screen" launch-prefix="gnome-terminal -e"/>
+
+  <node name="listener" pkg="beginner_tutorials" type="listener.py" output="screen" launch-prefix="gnome-terminal -e"/>
+
+  <node name="talker2" pkg="beginner_tutorials" type="talker.py" output="screen" launch-prefix="gnome-terminal -e"/>	
+
+</launch>
