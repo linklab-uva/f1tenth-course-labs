@@ -1,4 +1,0 @@
-<launch>
-  <node name="scanner" pkg="lidarlab" type="scan_test.py" output="screen">    
-  </node>
-</launch>
