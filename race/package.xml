@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package>
   <name>race</name>
-  <version>0.0.0</version>
-  <description>The race package</description>
+  <version>2.1.0</version>
+  <description>The race package for Autonomous F1tenth operation</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
-  <maintainer email="madhur.behl@virginia.edu">arc</maintainer>
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="madhur.behl@virginia.edu">Madhur Behl</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>MIT</license>
 
 
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
@@ -59,7 +60,7 @@
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
+  <!-- Other tools can request additional information be placed here -->
 
   </export>
 </package>

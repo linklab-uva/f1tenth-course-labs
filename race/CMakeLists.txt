@@ -50,9 +50,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 	add_message_files(
 		FILES
-		drive_param.msg
-		drive_values.msg
-    		pid_input.msg
+
+    pid_input.msg
 	)
 
 ## Generate services in the 'srv' folder
@@ -134,10 +133,10 @@ include_directories(
 
 ## Declare a C++ executable
 # add_executable(race_node src/race_node.cpp)
-# add_executable(odom_scan_matcher src/getOdomFromMatcher.cpp)
-# add_executable(hectorOdom src/hectorOdom.cpp)
-# add_executable(amclOdom src/amclOdom.cpp)
-# add_executable(processScan src/process_scan.cpp)
+## add_executable(odom_scan_matcher src/getOdomFromMatcher.cpp)
+## add_executable(hectorOdom src/hectorOdom.cpp)
+## add_executable(amclOdom src/amclOdom.cpp)
+## add_executable(processScan src/process_scan.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -146,18 +145,18 @@ include_directories(
 
 
 ## Specify libraries to link a library or executable target against
- #target_link_libraries(odom_scan_matcher
- #  ${catkin_LIBRARIES}
- #)
- #target_link_libraries(hectorOdom
- #  ${catkin_LIBRARIES}
- #)
-#target_link_libraries(amclOdom
- #  ${catkin_LIBRARIES}
- #)
-#target_link_libraries(processScan
- #  ${catkin_LIBRARIES}
- #)
+##  target_link_libraries(odom_scan_matcher
+##    ${catkin_LIBRARIES}
+##  )
+##  target_link_libraries(hectorOdom
+##    ${catkin_LIBRARIES}
+##  )
+## target_link_libraries(amclOdom
+##    ${catkin_LIBRARIES}
+##  )
+## target_link_libraries(processScan
+##    ${catkin_LIBRARIES}
+##  )
 
 #############
 ## Install ##
