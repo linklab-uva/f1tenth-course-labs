@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<launch>
+<arg name='car_name' default='car_9'/>
+<node name='map_server' pkg='map_server' type='map_server' args='$(find base_mapping)/map/base_map.yaml' output='screen'>
+  <param name='frame_id' value='map'/>
+</node>
+
+<remap from='map' to='/map'/>
+<group ns='$(arg car_name)'>
+<include file='$(find particle_filter)/launch/localization.launch'>
+  <arg name='car_name' default='$(arg car_name)'/>
+  <arg name='scan_topic' default='$(arg car_name)/scan'/>
+  <arg name='odom_topic' default='$(arg car_name)/odom'/> </include>
+</group>
+
+</launch>
