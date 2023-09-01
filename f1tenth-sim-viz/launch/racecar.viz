@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-	<!-- launch rviz with default configuration -->
-	<node name="$(arg computing_id)_remote_visualization" pkg="rviz" type="rviz" args="-d $(find f1tenth-sim-viz)/config/$(arg team_name).rviz" />
-</launch>
