@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Execute as a python script
 # Description: Set linear and angular values for the Turtle.
 import rospy				# Needed to create a ROS node -Python client library
