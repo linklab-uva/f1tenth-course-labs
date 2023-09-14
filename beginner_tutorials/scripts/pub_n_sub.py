@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
 
 from std_msgs.msg import Int32
 
-varS=None
+varS=0
 
 def fnc_callback(msg):
     global varS
