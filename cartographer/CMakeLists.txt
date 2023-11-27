@@ -65,7 +65,7 @@ endif()
 # Only build the documentation if we can find Sphinx.
 find_package(Sphinx)
 if(SPHINX_FOUND)
-  add_subdirectory("docs")
+ # add_subdirectory("docs")
 endif()
 
 # Install catkin package.xml
